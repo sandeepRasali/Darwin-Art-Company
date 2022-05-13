@@ -31,7 +31,7 @@ get("/", function ($app) {
    // $app is an instance of the Application class
    $app->force_to_http("/");
    $app->set_message("title", "Home");
-   $app->set_message("message", "Welcome");
+   // $app->set_message("message", "Welcome to Darwin Art Company");
    $app->render(LAYOUT, "home");
 });
 
